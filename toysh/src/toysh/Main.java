@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(
                 new InputStreamReader(System.in));
-        Stack stk = new Stack();
+        Stack<Object> stk = new Stack<>();
         for (;;) {
             System.out.printf("toysh-> ");
             String cli = br.readLine();
