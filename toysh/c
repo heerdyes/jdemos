@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+rm -rf bin
+mkdir bin
+javac -d bin -cp bin src/toysh/Main.java
