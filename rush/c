@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+rm -rf bin
+mkdir bin
+javac -version
+javac -d bin -cp bin src/com/fractalautomatawaveband/marga/rush/colln/ListProcessor.java
+javac -d bin -cp bin src/com/fractalautomatawaveband/marga/rush/colln/QueueProcessor.java
+javac -d bin -cp bin src/com/fractalautomatawaveband/marga/rush/colln/SetProcessor.java
+javac -d bin -cp bin src/com/fractalautomatawaveband/marga/rush/colln/StackProcessor.java
+javac -d bin -cp bin src/com/fractalautomatawaveband/marga/rush/Main.java
